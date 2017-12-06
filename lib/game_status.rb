@@ -16,12 +16,7 @@ WIN_COMBINATIONS = [
 ]
 
 def won(board)
-  x_positions = board.select{|i| i.eql?("X")}
-  o_positions = board.select{|i| i.eql?("O")}
-  if WIN_COMBINATIONS.include?(x_positions)
-    x_positions
-  elsif WIN_COMBINATIONS.include?(o_positions)
-    o_positions
-  else
-    nil
+  #x_positions = board.select{|i| i.eql?("X")}
+  #o_positions = board.select{|i| i.eql?("O")}
+
 end
