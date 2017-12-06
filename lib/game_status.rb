@@ -24,5 +24,4 @@ def won(board)
     return o_positions
   else
     nil
-  #returns winning index combo; otherwise false/nil
 end
