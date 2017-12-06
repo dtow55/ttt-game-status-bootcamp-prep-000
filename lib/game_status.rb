@@ -20,20 +20,12 @@ def won(board)
     win_index_1 = win_combination[0]
     win_index_2 = win_combination[1]
     win_index_3 = win_combination[2]
-    if (win_index_1 == "X" && win_index_2 == "X" && win_index_3 == "X")
+    if (board(win_index_1) == "X" && board(win_index_2) == "X" && board(win_index_3) == "X")
       win_combination
-    elsif (win_index_1 == "O" && win_index_2 == "O" && win_index_3 == "O")
+    elsif (board(win_index_1) == "O" && board(win_index_2) == "O" && board(win_index_3) == "O")
       win_combination
     else
       nil
     end
   end
-  #x_positions = board.select{|i| i.eql?("X")}
-  #o_positions = board.select{|i| i.eql?("O")}
-  #if WIN_COMBINATIONS.include?(x_positions)
-  #  x_positions
-  #elsif WIN_COMBINATIONS.include?(o_positions)
-  #  o_positions
-  #else
-  #  nil
 end
