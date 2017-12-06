@@ -34,6 +34,7 @@ def full?(board)
   return_value = true
   board.each do |box|
     if box == " " || ""
+      puts box
       return_value = false
     end
   end
