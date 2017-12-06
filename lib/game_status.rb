@@ -10,9 +10,11 @@ WIN_COMBINATIONS = [
   [6,7,8],  # Bottom row
   [0,3,6],  # Left col
   [1,4,7],  # Middle col
-  [2,5,8]  # Right col
+  [2,5,8],  # Right col
+  [0,4,8],  # Right diag
+  [2,4,6],  # Left diag
 ]
 
 def won(board)
-  
+
 end
