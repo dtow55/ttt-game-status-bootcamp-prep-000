@@ -29,3 +29,9 @@ def won?(board)
   end
   nil
 end
+
+def full?(board)
+  board.each do |box|
+    
+  end
+end
