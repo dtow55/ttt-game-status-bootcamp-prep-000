@@ -17,5 +17,6 @@ WIN_COMBINATIONS = [
 
 def won(board)
   x_positions = board.select{|i| i.eql?("X")}
+  o_positions = board.select{|i| i.eql?("O")}
   #returns winning index combo; otherwise false/nil
 end
